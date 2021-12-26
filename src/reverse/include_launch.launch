@@ -1,0 +1,3 @@
+<launch>
+    <include    file="$(find subpose)/use_ns.launch" />
+</launch>

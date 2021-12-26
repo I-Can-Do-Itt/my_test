@@ -1,0 +1,10 @@
+<launch>
+    <node   pkg="turtlesim"    type="turtlesim_node"    name="turtlesim" ns="sim1" />
+    <node   pkg="turtlesim"    type="turtle_teleop_key"    required="true" 
+                    name="teleop_key" launch-prefix="xterm -e" ns="sim1" />
+
+    <node   pkg="turtlesim"    type="turtlesim_node"    name="turtlesim" ns="sim2" />
+    <node   pkg="subpose"      type="subb"                          name="pose_subcriber"     output="screen"
+                    ns="sim2" />
+
+</launch>

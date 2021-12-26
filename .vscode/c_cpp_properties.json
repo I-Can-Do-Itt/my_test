@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "${workspaceFolder}/**"
+      ],
+      "name": "linux-gcc-x64",
+      "compilerArgs": [
+        "-Wall",
+        "-Wextra",
+        "-Wpedantic"
+      ],
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "compilerPath": "/usr/bin/gcc",
+      "intelliSenseMode": "linux-gcc-x64"
+    }
+  ],
+  "version": 4
+}

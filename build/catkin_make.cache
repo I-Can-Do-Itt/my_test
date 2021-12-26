@@ -1,0 +1,2 @@
+client:hello:param_change:pubvel:reverse:server:subpose
+-DCATKIN_DEVEL_PREFIX=/home/robot/test_ws/devel -DCMAKE_INSTALL_PREFIX=/home/robot/test_ws/install -G Unix Makefiles

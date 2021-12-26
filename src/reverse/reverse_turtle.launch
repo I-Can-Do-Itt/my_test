@@ -1,0 +1,10 @@
+<launch>
+    <node   pkg="turtlesim"    type="turtlesim_node"    name="turtlesim" >
+        <remap from="turtle1/cmd_vel"                                    to="turtle1/cmd_vel_reversed" />
+    </node>
+    
+    <node   pkg="turtlesim"    type="turtle_teleop_key"    required="true" 
+                    name="teleop_key"                               launch-prefix="xterm -e" />
+    <node   pkg="reverse"       type="reverse_vel"           name="reverse_node"   />
+
+</launch>

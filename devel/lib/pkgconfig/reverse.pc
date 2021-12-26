@@ -1,0 +1,8 @@
+prefix=/home/robot/test_ws/devel
+
+Name: reverse
+Description: Description of reverse
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
